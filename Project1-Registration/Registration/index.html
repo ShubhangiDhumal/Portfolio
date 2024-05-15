@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class="container">
+    <header>Registration Form</header><br>
+    <form class="form" action="#">
+        <label>Full Name</label>
+    <input type="text" placeholder="Enter Full name"/><br><br>
+    <label> Birth date</label>
+    <input type="date" placeholder="Enter birth date"/><br><br>
+    <label>Mobile number</label>
+    <input type="number" placeholder="Enter mobile number"/><br><br>
+    
+    <div class="gender">
+        <h3>Gender</h3>
+    <input type="radio" id="check-male" name="gender" checked/>
+    <label for="check-male">male</label>
+    <input type="radio" id="check-female" name="gender" checked/>
+    <label for="check-female">female</label>
+    <input type="radio" id="check-Other" name="gender" checked/>
+    <label for="check-Other">Other</label><br><br>
+    </div>
+    <label>Address</label>
+    <input type="text" placeholder="Enter street Address"/><br><br>
+    <input type="text" placeholder="Enter street Address line 2"/><br><br>
+   <div class="column">
+    <div class="select-box">
+        <select >
+            <option>Country</option>
+            <option>America</option>
+            <option>japan</option>
+            <option>India</option>
+            <option>Nepal</option>
+        </select><br><br>
+    </div>
+  
+    <input type="text" placeholder="Enter your city"/><br><br>
+   </div>
+   <div class="column">
+    <input type="text" placeholder="Enter your region"/>
+    <input type="number" placeholder="Enter postal code"/><br><br>
+   </div>
+</div>
+  <button>submit</button>
+
+</form>
+</section>  
+</body>
+</html>
